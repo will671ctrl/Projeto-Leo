@@ -54,6 +54,6 @@ $conexao->close();
         <input type="submit" value="Cadastrar">
     </form>
     <br><br>
-    <a href="index.html">Voltar</a>
+    <a href="index.php">Voltar</a>
 </body>
 </html>

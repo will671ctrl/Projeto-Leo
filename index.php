@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HEADER</title>
+    <link rel="stylesheet" href="sla.css">
+    <title> GameForge Academy </title>
     <style>
         :root{
             --color-blu1:#0896c1;
@@ -36,7 +37,7 @@ img{
 }
 .header{
     background-color: var(--color-blu1);
-    box-shadow: 1px 1px 4px var(--color-blu4);
+    box-shadow: 1px 1px 4px var(--color-blu6);
     height: 3.5em;
     justify-content:space-between;
     padding: 0 10%;
@@ -70,10 +71,9 @@ cursor: pointer;
 display: none;
 }
 
-img{
-    width: 200px;
+.content img{
+    width: 80%;
 }
-
 
 @media screen and (max-width: 600px){
     .btn_icon_header{
@@ -114,16 +114,55 @@ img{
                          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
                       </svg>
                 </button>
-                <a href="#" class="active">Home</a>
-                <a href="teste.htm">Quem Somos </a>
-                <a href="Contato">Contato</a>
+                <a href="index.php" class="active">Home</a>
+                <a href="teste.html">Quem Somos </a>
+                <a href="cadastro.php">Contato</a>
             </div>
     </div>
+
+<!-- 
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="imagem1.jpg" alt="Imagem 1">
+        </div>
+        <div class="slide fade">
+            <img src="download.jpg" alt="Imagem 2">
+        </div>
+        <div class="slide fade">
+            <img src="jg2.jpg" alt="Imagem 3">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+
+
+    </div> -->
+
+
             <div class="content" id="content">
-                <img src="sla/baner agr vai (1).png" id= "Banner"><br><br><br><br>
-                <h1>seja bem-vindo a doceria da dona Pepa </h1><br><br><br>
-             <h2>Aqui temos doces de alta qualidade e incrivelmente paratos!!!!</h2>
-             <h2>E com a loja pertinho da sua casa!!</h2>
+                <br>
+                <div class="img-logo">
+                    <img src="img/jg3.jpeg" alt="logo-sla">
+                </div>
+                <br>
+                <header>
+        <h1>Bem-vindo à  GameForge Academy </h1>
+        <p>Sua jornada para se tornar um mestre dos jogos começa aqui!</p>
+    </header>
+    <section id="cursos">
+        <h2>Nossos Cursos</h2>
+        <p>Explore nossa variedade de cursos de jogos e aprenda com os melhores instrutores. Aperfeiçoe suas habilidades e alcance o topo da tabela de classificação.</p>
+    </section>
+ 
+<section id="contato">
+        <h2>Entre em Contato</h2>
+        <p>Tire suas dúvidas, compartilhe suas sugestões ou simplesmente diga olá! Estamos aqui para ajudar. Envie-nos um e-mail em <a href="mailto:contato@ GameForge Academy.com">contato@academiadegames.com</a></p>
+    </section>
+
+                <section id= "NSSSS-SLA"></section>
             </div>
     </div>
 </body>
