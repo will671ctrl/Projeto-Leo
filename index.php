@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sla.css">
-    <title> GameForge Academy </title>
-    <style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<title> GameForge Academy </title>
+<style>
         :root{
             --color-blu1:#0896c1;
     --color-blu2:#0a86ec;
@@ -96,7 +96,7 @@ display: none;
         top {margin-left: -10vw;}
     }
 
-    </style>
+</style>
 </head>
 <body>
     <div class="header" id="header">
@@ -116,7 +116,7 @@ display: none;
                 </button>
                 <a href="index.php" class="active">Home</a>
                 <a href="teste.html">Quem Somos </a>
-                <a href="cadastro.php">Contato</a>
+                <a href="cadastro.php">Cadastro</a>
             </div>
     </div>
 
@@ -162,9 +162,8 @@ display: none;
         <p>Tire suas dúvidas, compartilhe suas sugestões ou simplesmente diga olá! Estamos aqui para ajudar. Envie-nos um e-mail em <a href="mailto:contato@ GameForge Academy.com">contato@academiadegames.com</a></p>
     </section>
 
-                <section id= "NSSSS-SLA"></section>
-            </div>
     </div>
+    
 </body>
 <script>
     var header = document.getElementById('header');
