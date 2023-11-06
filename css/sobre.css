@@ -1,0 +1,68 @@
+
+:root{
+    --color-blu1:#099ce6;
+    --color-blu2:#0a86ec;
+    --color-blu3:#0858ec;
+    --color-blu4:#040553;
+    --color-blu5:#062588;
+    --color-blu6:#160241;
+    --color-blu7:#080d9e;
+}
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; 
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.97); 
+}
+
+
+h2 {
+    color: #f1f5f7; 
+}
+
+
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#quem-somos {
+    background-color: #6ab7ff;
+}
+
+#nossa-historia {
+    background-color: #4f9cc6;
+}
+
+
+#nossa-equipe {
+    background-color: #4380b9; 
+}
+
+#noooooooooosssssssssssssssssssaaaaaaaa-missão{
+    background-color:var(--color-blu2) ;
+}
+
+section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgb(0, 0, 0); 
+} 
+
